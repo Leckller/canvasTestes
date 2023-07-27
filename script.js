@@ -4,6 +4,14 @@ const ctx = canvas.getContext('2d')
 const formulaRadGrau = (Math.PI/180)
 const BuscaValorDeBolas = document.getElementById('nBalls')
 
+
+// let rosto = new Image()
+// rosto.src = 'amareloPuto.png'
+
+// rosto.onload = () => {
+//     ctx.drawImage(rosto, 50, 50, 100, 100, 50, 50, 100, 100)
+// }
+
 let inicia
 let grauI = 0
 let grauF = 0
@@ -94,3 +102,4 @@ function muitaBola () {
 // window.onload = () => {
 //     player()
 // }
+
