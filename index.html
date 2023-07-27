@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        body {
+            background-color: #181818;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        #tela {
+            display: flex;
+            background-color: #fffe3f; 
+            align-items: center;
+        }
+    </style>
+</head>
+<body onload="grid">
+    <div>
+        <h1> Joguinho </h1>
+    </div>
+    <canvas id="tela" height="700px" width="1600px">
+        <h1>Error 001 // O seu navegador não suporta o canvas.</h1>
+    </canvas>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
