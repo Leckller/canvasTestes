@@ -18,24 +18,56 @@
             align-items: center;
             justify-content: center;
         }
+        main    {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #one {
+            display: flex;
+            height: 20%;
+            margin-right: 10px;
+            flex-direction: column;
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+        #two {
+            display: flex;
+        }
         h1 {
             color: white;
+            font-variant: small-caps;
             margin-bottom: 20px;
+        }
+        input {
+            margin-top: 20px;
         }
         #tela {
             display: flex;
-            background-color: #fffe3f; 
-            align-items: center;
+            background-color: #ffffff;
+        }
+        #nBalls {
+            width: 80%;
+            font-size: 20px;
+            font-variant: small-caps;
         }
     </style>
 </head>
-<body onload="grid">
-    <div>
-        <h1> Joguinho </h1>
-    </div>
-    <canvas id="tela" height="700px" width="1600px">
-        <h1>Error 001 // O seu navegador não suporta o canvas.</h1>
-    </canvas>
+<body>
+    <main>
+        <div id="one">
+            <h1> Caracoles Quanta Bola </h1>
+            <input id="nBalls" type="submit" value="Iniciar">
+        </div>
+        <div id="two">
+            <canvas id="tela" height="700px" width="1600px">
+                <h1>Error 001 // O seu navegador não suporta o canvas.</h1>
+            </canvas>
+        </div>
+    </main>
 
     <script src="script.js">
     </script>
